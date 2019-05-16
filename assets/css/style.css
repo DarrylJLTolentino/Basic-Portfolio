@@ -23,7 +23,9 @@ header {
 
 nav {
     position: absolute;
-    right: 0;
+    right: 350px;
+    top: 12px;
+    font-size: 20px;
 }
 
 #header, #nav {
