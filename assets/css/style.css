@@ -14,9 +14,11 @@ body {
 }
 
 header {
+    position: absolute;
     background: #ffffff;
     border: 2px solid #cccccc;
     width: 100%;
+    top: 0;
 }
 
 #header, #nav {
