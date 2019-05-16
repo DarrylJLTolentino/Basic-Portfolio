@@ -5,3 +5,9 @@
 body {
     margin: 0 auto;
 }
+
+.clearfix::after {
+    content: " ";
+    display: inline;
+    clear: both;
+}
