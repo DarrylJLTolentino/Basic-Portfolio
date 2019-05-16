@@ -21,8 +21,15 @@ header {
     top: 0;
 }
 
+nav {
+    position: absolute;
+    right: 0;
+}
+
 #header, #nav {
     float: left;
 }
+
+
 
 
