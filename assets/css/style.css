@@ -18,6 +18,7 @@ header {
     border-bottom: 2px solid #cccccc;
     width: 100%;
     top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -51,6 +52,7 @@ a {
 #firstSep, #secondSep {
     margin-top: 20px;
 }
+
 
 
 
