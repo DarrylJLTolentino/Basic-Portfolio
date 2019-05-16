@@ -80,7 +80,7 @@ h2 {
     border-bottom: 2px solid #cccccc;
 }
 
-img {
+#portrait {
     width: 200px;
     height: 200px;
     margin: 0px 25px 12.5px 25px;
@@ -92,6 +92,16 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
 }
+
+img {
+    position: relative;
+    margin: 0px 25px 12.5px 25px;
+}
+
+#image-1 {
+    
+}
+
 
 footer {
     position: absolute;
