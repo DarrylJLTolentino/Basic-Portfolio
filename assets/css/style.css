@@ -18,6 +18,10 @@ body {
     background: #ffffff;
 }
 
+.content {
+    width: 960px;
+}
+
 header {
     position: absolute;
     border-bottom: 2px solid #cccccc;
