@@ -4,6 +4,7 @@
 
 body {
     margin: 0 auto;
+    background: #4aaaa5;
 }
 
 .clearfix::after {
@@ -17,6 +18,10 @@ header {
     border: 2px solid #cccccc;
 }
 
-#header, #nav {
+#header {
     float: left;
+}
+
+#nav {
+    float: right;
 }
