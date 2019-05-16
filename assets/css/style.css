@@ -30,6 +30,9 @@ nav {
     float: left;
 }
 
+a, #firstSep, #secondSep {
+    float: left;
+}
 
 
 
