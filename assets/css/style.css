@@ -21,6 +21,15 @@ header {
     top: 0;
 }
 
+h1 {
+    position: relative;
+    background: #4aaaa5;
+    color: #ffffff;
+    left: 350px;
+    margin: 0;
+    padding: 20px;
+}
+
 nav {
     position: absolute;
     right: 350px;
