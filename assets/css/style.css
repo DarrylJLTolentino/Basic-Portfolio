@@ -34,5 +34,10 @@ a, #firstSep, #secondSep {
     float: left;
 }
 
+a {
+    margin: 20px 5px;
+}
+
+
 
 
