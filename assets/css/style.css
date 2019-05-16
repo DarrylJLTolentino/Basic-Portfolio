@@ -16,12 +16,11 @@ body {
 header {
     background: #ffffff;
     border: 2px solid #cccccc;
+    width: 100%;
 }
 
-#header {
+#header, #nav {
     float: left;
 }
 
-#nav {
-    float: right;
-}
+
