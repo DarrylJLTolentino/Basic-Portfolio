@@ -95,13 +95,10 @@ p {
 
 img {
     position: relative;
-    margin: 0px 25px 12.5px 25px;
+    width: 300px;
+    height: 200px;
+    margin: 0px 25px 25px 25px;
 }
-
-#image-1 {
-    
-}
-
 
 footer {
     position: absolute;
