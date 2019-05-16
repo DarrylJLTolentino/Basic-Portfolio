@@ -4,6 +4,8 @@
 
 body {
     margin: 0 auto;
+    width: 960px;
+    background-image: url("../images/circuit.png");
 }
 
 .clearfix::after {
