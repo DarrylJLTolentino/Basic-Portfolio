@@ -93,18 +93,51 @@ p {
     line-height: 2;
 }
 
+.portfolio {
+    width: 550px;
+}
+
 img {
     position: relative;
-    width: 210px;
-    height: 150px;
-    margin: 0px 25px 0px 25px;
+    width: 250px;
+    height: 200px;
+    top: -20px;
+}
+
+#image-1, #image-2, #image-3, #image-4, #image-5 {
+    position: relative;
+}
+
+#image-1 {
+    top: 25px;
+    left: 25px;
+}
+
+#image-2{
+    top: -218px;
+    right: -325px;
+}
+
+#image-3 {
+    top: -200px;
+    left: 20px;
+}
+
+#image-4 {
+    top: -440px;
+    right: -325px;
+}
+
+#image-5 {
+    top: -428px;
+    left: 20px;
 }
 
 h3 {
     position: relative;
-    font-size: 14px;
-    top: -80px;
-    left: 74px;
+    font-size: 12px;
+    top: -65px;
+    left: 60px;
 }
 
 .main-content {
