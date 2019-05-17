@@ -50,7 +50,7 @@ nav {
     float: left;
 }
 
-a, #firstSep, #secondSep {
+#navAbout, #navPortfolio, #navContact, #firstSep, #secondSep {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
 }
