@@ -7,9 +7,7 @@ body {
     background-image: url("../images/circuit.png");
 }
 
-.clearfix::after {
-    content: " ";
-    display: inline;
+.clearfix {
     clear: both;
 }
 
@@ -97,47 +95,40 @@ p {
     width: 550px;
 }
 
+.portfolio-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
 img {
     position: relative;
     width: 250px;
     height: 200px;
     top: -20px;
+    z-index: 1;
 }
 
-#image-1, #image-2, #image-3, #image-4, #image-5 {
-    position: relative;
+#image-1, #image-3, #image-5{
+    float: left;
+    clear: left;
 }
 
-#image-1 {
-    top: 25px;
-    left: 25px;
+#image-2, #image-4 {
+    float: right;
+    margin-right: 350px;
 }
 
-#image-2{
-    top: -218px;
-    right: -325px;
-}
-
-#image-3 {
-    top: -200px;
-    left: 20px;
-}
-
-#image-4 {
-    top: -440px;
-    right: -325px;
-}
-
-#image-5 {
-    top: -428px;
-    left: 20px;
-}
-
-h3 {
-    position: relative;
-    font-size: 12px;
-    top: -65px;
-    left: 60px;
+.image-label {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    z-index: 2;
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px 50px 10px 50px;
 }
 
 .main-content {
