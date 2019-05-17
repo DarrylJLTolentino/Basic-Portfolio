@@ -71,7 +71,7 @@ section {
 
 h2 {
     color: #4aaaa5;
-    margin: 30px 25px;
+    margin: 30px 25px 10px 25px;
     padding-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
@@ -132,6 +132,31 @@ img {
     font-size: 14px;
     padding: 10px 73px 10px 73px;
     white-space: nowrap;
+}
+
+form {
+    margin-left: 10px;
+}
+
+input {
+    margin-left: 25px;
+    width: 90%;
+}
+
+textarea {
+    height: 200px;
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+#submitButton {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
 }
 
 .main-content {
