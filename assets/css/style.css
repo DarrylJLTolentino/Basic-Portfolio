@@ -106,7 +106,8 @@ img {
     width: 250px;
     height: 200px;
     top: -20px;
-    z-index: 1;
+    z-index: 0;
+    margin-left: 25px;
 }
 
 #image-1, #image-3, #image-5{
@@ -121,14 +122,16 @@ img {
 
 .image-label {
     position: absolute;
-    left: 30px;
+    left: 26px;
     bottom: 0;
-    z-index: 2;
+    z-index: 1;
     background-color: #4aaaa5;
     color: white;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-bottom: 30px;
-    padding: 10px 50px 10px 50px;
+    font-size: 14px;
+    padding: 10px 73px 10px 73px;
+    white-space: nowrap;
 }
 
 .main-content {
